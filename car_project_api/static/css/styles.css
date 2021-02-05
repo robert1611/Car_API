@@ -1,0 +1,102 @@
+/* NAV STYLES */
+body {
+    padding: 75px 20px;
+    font-family: fantasy;
+}
+
+h2 {
+    color:black;
+    /*font-size:100px;*/
+}
+
+.main-background {
+    background-image: url("../images/mach.jpg");
+    background-size: cover;
+    top:0;
+    left:0;
+    bottom: 0;
+    right:0;
+    position: fixed;
+    z-index: -1;
+    content: "";
+    opacity: 0.3;
+}
+
+ul {
+
+    font-size: 18px;
+}
+
+
+.ct-nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px !important;
+    padding: 10px;
+    color: red;
+    background-color: rgba(0, 183, 255, 0.856);
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100vw;
+}
+
+/* Target Main Logo Image */
+.ct-nav img{
+    /* width: 25%;
+    max-width: 100%;
+    margin-left: 2vw; */
+}
+
+.img {
+    width: 50%;
+}
+
+.header-image {
+    padding-left: 120px;
+}
+
+#features-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#horizontal-list {
+    display: flex;
+    align-items: center;    
+    margin-bottom: 0;
+}
+
+#horizontal-list a {
+    text-decoration: none;
+    list-style: none;
+    padding: 0 20px;
+    border: 1px  black;
+    border-radius: 11px;
+    font-size:15px;
+    margin-right:10px;
+    background-color: white;
+}
+
+.list-one {
+    padding:0 20px 0 0 !important;
+}
+
+#footer {
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   background-color: white;
+   width: 100vw;
+   padding: 5px;
+}
+
+#footer h4 {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.btn-submit {
+    margin-top: 10px;
+    background-color: white;
+}
